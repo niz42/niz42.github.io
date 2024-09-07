@@ -1,0 +1,257 @@
+@font-face {
+    font-family: 'zpix';
+    src: url('fonts/zpix.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: 'zpix', sans-serif;
+    background-color: #f2f2f2;
+    color: #333;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    background-color: #ccc;
+    border-bottom: 2px solid black;
+}
+
+.logo {
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    margin-left: 10px;
+    text-decoration: none;
+    text-shadow: 
+        -1px -1px 0 #000,  
+        1px -1px 0 #000,  
+        -1px 1px 0 #000,   
+        1px 1px 0 #000;    
+}
+
+header nav a {
+    margin-right: 20px;
+    text-decoration: none;
+    color: #333;
+    font-size: 25px;
+}
+.nav-item:hover{
+    color: #180BFF;
+}
+.nav-item:hover svg {
+    fill: #180BFF;
+}
+
+header .language-switch a {
+    margin-right: 10px;
+    text-decoration: none;
+    color: #333;
+    font-size: 25px;
+}
+
+header .language-switch a:hover {
+    color: #180BFF;
+}
+
+main {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.intro-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    margin: 40px auto 10px auto;
+    padding: 20px;
+}
+
+.avatar {
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    margin-right: 30px;
+    border: 2px solid black;
+}
+
+.avatar img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.intro-text {
+    max-width: 500px;
+}
+
+.intro-text h1 {
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.intro-text p {
+    font-size: 18px;
+    margin-bottom: 20px;
+    line-height: 1.5;
+}
+
+.contact {
+    display: flex;
+    align-items: center;
+}
+
+.contact svg {
+    margin-right: 10px;
+}
+.contact:hover svg {
+    fill: #180BFF;
+}
+.contact:hover p {
+    color: #180BFF;
+}
+
+hr {
+    width: 80%;
+    margin: 10px auto;
+    border: 1px solid #ccc;
+}
+
+.education-background h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 25px;
+}
+
+.education-background ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    font-size: 18px;
+}
+
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #ccc;
+    width: 100%;
+    position: sticky;
+    bottom: 0;
+    margin-top: auto;
+}
+
+.back {
+    width: 25px;
+    height: 25px;
+    overflow: hidden;
+    margin-right: 30px;
+    margin-left: 10px;
+}
+
+.project {
+    width: 80%;
+    margin: 25px auto;
+    display: flex;
+    align-items: center;
+}
+
+.pic {
+    width: 25%;
+    margin: auto;
+    overflow: hidden; 
+}
+
+.pic img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.project-intro {
+    flex: 1;
+    margin-left: 20px;
+}
+.title {
+    font-size: 20px;
+    color: #180BFF;
+}
+.date {
+    font-size: 15px;
+    color: #333;
+    margin: 15px auto;
+}
+.description {
+    font-size: 15px;
+    margin: 15px auto;
+}
+.btn {
+    display: flex;
+    border: 2px solid black;
+    width: 150px;
+    height: 30px;
+    font-size: 15px;
+    background-color: #180BFF;
+    cursor: pointer;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    text-decoration: none;
+}
+.btn svg{
+    margin-right: 5px;
+}
+.btn:hover {
+    background-color: #fff;
+    color: #180BFF;
+    border-color: #180BFF;
+}
+.btn:hover svg {
+    fill: #180BFF;
+}
+.blog {
+    margin: auto;
+    width: 70%;
+    font-family: 'system-ui', sans-serif;
+}
+.link {
+    text-decoration: underline;
+    color: #000;
+}
+.link:hover {
+    color: #180BFF;
+}
+.content {
+    text-align: left;
+    font-size: 18px;
+}
+.subtitle {
+    text-align: left;
+    margin: 50px 0 0 0;
+}
+.subsubtitle {
+    text-align: left;
+    margin: 20px 0 0 0;
+}
+.list {
+    margin: 0;
+    font-size: 18px;
+}
+.item {
+    font-size: 20px;
+    font-weight: bold;
+}
